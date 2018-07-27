@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import "SharedInstanceObj.h"
-
+#import "MailViewController.h"
+#import <FBRetainCycleDetector/FBRetainCycleDetector.h>
 @interface ViewController ()
 
 @end
@@ -22,6 +23,15 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [SharedInstanceObj deallocShared];
+}
+
+- (IBAction)gotoMailVC:(UIButton *)sender {
+    MailViewController *vc = MailViewController.new;
+    FBRetainCycleDetector *detector = [FBRetainCycleDetector new];
+    [detector addCandidate:vc];
+    NSSet *retainCycles = [detector findRetainCycles];
+    NSLog(@"%@", retainCycles);
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

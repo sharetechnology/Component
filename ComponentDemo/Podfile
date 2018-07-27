@@ -2,7 +2,11 @@ platform :ios, '8.0'
 
 target 'ComponentDemo' do
 #  pod 'libextobjc', '~> 0.4.1' //pod 引用的代码不如master新
+
+# 调试环境使用
   pod 'MLeaksFinder', :configurations => ['Debug']
   pod 'FBRetainCycleDetector', :configurations => ['Debug']
   pod 'FLEX', '~> 2.0', :configurations => ['Debug']
+  
+  pod 'MGSwipeTableCell', '~> 1.6.7'
 end
