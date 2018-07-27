@@ -125,17 +125,8 @@
 				678882D02109F1020021629D /* AppDelegate.m */,
 				678882D22109F1020021629D /* ViewController.h */,
 				678882D32109F1020021629D /* ViewController.m */,
+				67F6FD9E210AC52E001AF9B2 /* RetainCycle */,
 				678882D52109F1020021629D /* Main.storyboard */,
-				678882E52109F2E00021629D /* View0Controller.h */,
-				678882E62109F2E00021629D /* View0Controller.m */,
-				67F6FD73210AB093001AF9B2 /* View1Controller.h */,
-				67F6FD74210AB093001AF9B2 /* View1Controller.m */,
-				67F6FD76210AB2B9001AF9B2 /* View2Controller.h */,
-				67F6FD77210AB2B9001AF9B2 /* View2Controller.m */,
-				67F6FD79210AB9E5001AF9B2 /* View3Controller.h */,
-				67F6FD7A210AB9E5001AF9B2 /* View3Controller.m */,
-				678882E82109F4B70021629D /* SharedInstanceObj.h */,
-				678882E92109F4B70021629D /* SharedInstanceObj.m */,
 				678882D82109F1040021629D /* Assets.xcassets */,
 				67F6FD7C210AC1A4001AF9B2 /* extobjc */,
 				678882DA2109F1040021629D /* LaunchScreen.storyboard */,
@@ -174,6 +165,23 @@
 				67F6FD94210AC1A4001AF9B2 /* EXTCoroutine.h */,
 			);
 			path = extobjc;
+			sourceTree = "<group>";
+		};
+		67F6FD9E210AC52E001AF9B2 /* RetainCycle */ = {
+			isa = PBXGroup;
+			children = (
+				678882E82109F4B70021629D /* SharedInstanceObj.h */,
+				678882E92109F4B70021629D /* SharedInstanceObj.m */,
+				678882E52109F2E00021629D /* View0Controller.h */,
+				678882E62109F2E00021629D /* View0Controller.m */,
+				67F6FD73210AB093001AF9B2 /* View1Controller.h */,
+				67F6FD74210AB093001AF9B2 /* View1Controller.m */,
+				67F6FD76210AB2B9001AF9B2 /* View2Controller.h */,
+				67F6FD77210AB2B9001AF9B2 /* View2Controller.m */,
+				67F6FD79210AB9E5001AF9B2 /* View3Controller.h */,
+				67F6FD7A210AB9E5001AF9B2 /* View3Controller.m */,
+			);
+			path = RetainCycle;
 			sourceTree = "<group>";
 		};
 		A7DA605EAE1CD34638784F4A /* Pods */ = {
