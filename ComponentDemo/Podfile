@@ -1,6 +1,7 @@
 platform :ios, '8.0'
 
 target 'ComponentDemo' do
+#  pod 'libextobjc', '~> 0.4.1' //pod 引用的代码不如master新
   pod 'MLeaksFinder', :configurations => ['Debug']
   pod 'FBRetainCycleDetector', :configurations => ['Debug']
 end

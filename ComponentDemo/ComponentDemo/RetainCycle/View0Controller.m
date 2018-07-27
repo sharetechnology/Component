@@ -6,11 +6,16 @@
 //  Copyright © 2018年 沈兆良. All rights reserved.
 //
 
+//http://wereadteam.github.io/2016/07/20/MLeaksFinder2/
+
 #import "View0Controller.h"
 #import "SharedInstanceObj.h"
 #import "View1Controller.h"
 #import "View2Controller.h"
 #import "View3Controller.h"
+
+#import <FBRetainCycleDetector/FBRetainCycleDetector.h>
+
 @interface View0Controller ()<View1ControllerDelegate>
 /** <##> */
 @property(nonatomic, strong)View1Controller *vc1;
@@ -32,6 +37,14 @@
     UIBarButtonItem *vc3Item = [[UIBarButtonItem alloc] initWithTitle:@"vc3Item" style:UIBarButtonItemStylePlain target:self action:@selector(gotoVC3)];
     
     self.navigationItem.rightBarButtonItems = @[vc1Item, vc2Item, vc3Item];
+    
+    
+    FBRetainCycleDetector *detector = [FBRetainCycleDetector new];
+    [detector addCandidate:self.vc1];
+    [detector addCandidate:self.vc2];
+    [detector addCandidate:self.vc3];
+    NSSet *retainCycles = [detector findRetainCycles];
+    NSLog(@"%@", retainCycles);
 
 }
 
