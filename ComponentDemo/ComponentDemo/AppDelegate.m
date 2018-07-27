@@ -7,12 +7,21 @@
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+
+/**
+1.摇晃手机， 调用Xcode界面调试工具FLEX
+ 
+FLEX是一个需要注入式的一种框架，从描述来看，功能非常多。主要来讲的话能够对正在运行的应用进行样式的修改和控件的读取。FLEX会赐予你SuperPower！！！
+可以查看控件的坐标和属性
+看任何一个对象的属性和成员变量
+动态修改属性和成员变量
+动态的调用实例和类方法 FLEX正因为是注入式的，所以不需要在链接LLDB或者Xocde，或者是远程的调试服务器，它可以在本地随时随地的进行自有的操作和调试
+ **/
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

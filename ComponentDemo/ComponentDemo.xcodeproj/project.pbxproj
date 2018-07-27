@@ -28,6 +28,7 @@
 		67F6FD9B210AC1A4001AF9B2 /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FD8C210AC1A4001AF9B2 /* EXTSafeCategory.m */; };
 		67F6FD9C210AC1A4001AF9B2 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FD8E210AC1A4001AF9B2 /* NSMethodSignature+EXT.m */; };
 		67F6FD9D210AC1A4001AF9B2 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FD92210AC1A4001AF9B2 /* EXTNil.m */; };
+		67F6FDA4210AD77A001AF9B2 /* UIWindow+FLEXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FDA3210AD77A001AF9B2 /* UIWindow+FLEXManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,8 @@
 		67F6FD92210AC1A4001AF9B2 /* EXTNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTNil.m; sourceTree = "<group>"; };
 		67F6FD93210AC1A4001AF9B2 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		67F6FD94210AC1A4001AF9B2 /* EXTCoroutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTCoroutine.h; sourceTree = "<group>"; };
+		67F6FDA2210AD77A001AF9B2 /* UIWindow+FLEXManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FLEXManager.h"; sourceTree = "<group>"; };
+		67F6FDA3210AD77A001AF9B2 /* UIWindow+FLEXManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FLEXManager.m"; sourceTree = "<group>"; };
 		6DBAE63925E8AEC99B54E20D /* libPods-ComponentDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ComponentDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3099A81561BCDC151A586F7 /* Pods-ComponentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentDemo/Pods-ComponentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +128,8 @@
 				678882D02109F1020021629D /* AppDelegate.m */,
 				678882D22109F1020021629D /* ViewController.h */,
 				678882D32109F1020021629D /* ViewController.m */,
+				67F6FDA2210AD77A001AF9B2 /* UIWindow+FLEXManager.h */,
+				67F6FDA3210AD77A001AF9B2 /* UIWindow+FLEXManager.m */,
 				67F6FD9E210AC52E001AF9B2 /* RetainCycle */,
 				678882D52109F1020021629D /* Main.storyboard */,
 				678882D82109F1040021629D /* Assets.xcassets */,
@@ -318,6 +323,7 @@
 				67F6FD75210AB093001AF9B2 /* View1Controller.m in Sources */,
 				67F6FD9C210AC1A4001AF9B2 /* NSMethodSignature+EXT.m in Sources */,
 				67F6FD95210AC1A4001AF9B2 /* EXTSelectorChecking.m in Sources */,
+				67F6FDA4210AD77A001AF9B2 /* UIWindow+FLEXManager.m in Sources */,
 				678882EA2109F4B70021629D /* SharedInstanceObj.m in Sources */,
 				67F6FD9A210AC1A4001AF9B2 /* NSInvocation+EXT.m in Sources */,
 				67F6FD78210AB2B9001AF9B2 /* View2Controller.m in Sources */,

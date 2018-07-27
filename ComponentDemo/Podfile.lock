@@ -1,16 +1,19 @@
 PODS:
   - FBRetainCycleDetector (0.1.4)
+  - FLEX (2.4.0)
   - MLeaksFinder (1.0.0):
     - FBRetainCycleDetector
 
 DEPENDENCIES:
   - FBRetainCycleDetector
+  - FLEX (~> 2.0)
   - MLeaksFinder
 
 SPEC CHECKSUMS:
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
 
-PODFILE CHECKSUM: 11901e74812809a35f4b5f6ec7efa53345f1b8b0
+PODFILE CHECKSUM: 76d168b8003f7f56587f712ca9356a44711a9f3a
 
 COCOAPODS: 1.2.0

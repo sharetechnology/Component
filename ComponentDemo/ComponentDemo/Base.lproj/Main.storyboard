@@ -21,7 +21,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="IUR-bV-hUb">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="knR-ld-WBl">
+                        <barButtonItem key="rightBarButtonItem" title="内存检测" id="knR-ld-WBl">
                             <connections>
                                 <segue destination="DnX-wu-5wk" kind="show" id="JXR-Il-7aY"/>
                             </connections>
