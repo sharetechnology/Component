@@ -1,6 +1,7 @@
 PODS:
   - FBRetainCycleDetector (0.1.4)
   - FLEX (2.4.0)
+  - JDStatusBarNotification (1.5.6)
   - MGSwipeTableCell (1.6.7)
   - MLeaksFinder (1.0.0):
     - FBRetainCycleDetector
@@ -8,15 +9,17 @@ PODS:
 DEPENDENCIES:
   - FBRetainCycleDetector
   - FLEX (~> 2.0)
+  - JDStatusBarNotification
   - MGSwipeTableCell (~> 1.6.7)
   - MLeaksFinder
 
 SPEC CHECKSUMS:
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  JDStatusBarNotification: d5829a8f2f291b23b8a54b87fac8bf2549945a2f
   MGSwipeTableCell: fb20e983988bde2b8d0df29c2d9e1d8ffd10b74a
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
 
-PODFILE CHECKSUM: 28177f62d4241e18be70e02e30a9257bd5566df1
+PODFILE CHECKSUM: 73ccf69cf35bd776a5f90011345d886fad5bd182
 
 COCOAPODS: 1.2.0

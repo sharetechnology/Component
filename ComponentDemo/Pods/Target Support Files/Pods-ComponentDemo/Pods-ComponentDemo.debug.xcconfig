@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FBRetainCycleDetector" "${PODS_ROOT}/Headers/Public/FLEX" "${PODS_ROOT}/Headers/Public/MGSwipeTableCell" "${PODS_ROOT}/Headers/Public/MLeaksFinder"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FBRetainCycleDetector" "$PODS_CONFIGURATION_BUILD_DIR/FLEX" "$PODS_CONFIGURATION_BUILD_DIR/MGSwipeTableCell" "$PODS_CONFIGURATION_BUILD_DIR/MLeaksFinder"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FBRetainCycleDetector" -isystem "${PODS_ROOT}/Headers/Public/FLEX" -isystem "${PODS_ROOT}/Headers/Public/MGSwipeTableCell" -isystem "${PODS_ROOT}/Headers/Public/MLeaksFinder"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"FBRetainCycleDetector" -l"FLEX" -l"MGSwipeTableCell" -l"MLeaksFinder" -l"c++" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FBRetainCycleDetector" "${PODS_ROOT}/Headers/Public/FLEX" "${PODS_ROOT}/Headers/Public/JDStatusBarNotification" "${PODS_ROOT}/Headers/Public/MGSwipeTableCell" "${PODS_ROOT}/Headers/Public/MLeaksFinder"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FBRetainCycleDetector" "$PODS_CONFIGURATION_BUILD_DIR/FLEX" "$PODS_CONFIGURATION_BUILD_DIR/JDStatusBarNotification" "$PODS_CONFIGURATION_BUILD_DIR/MGSwipeTableCell" "$PODS_CONFIGURATION_BUILD_DIR/MLeaksFinder"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FBRetainCycleDetector" -isystem "${PODS_ROOT}/Headers/Public/FLEX" -isystem "${PODS_ROOT}/Headers/Public/JDStatusBarNotification" -isystem "${PODS_ROOT}/Headers/Public/MGSwipeTableCell" -isystem "${PODS_ROOT}/Headers/Public/MLeaksFinder"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FBRetainCycleDetector" -l"FLEX" -l"JDStatusBarNotification" -l"MGSwipeTableCell" -l"MLeaksFinder" -l"c++" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

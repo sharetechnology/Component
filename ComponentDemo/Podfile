@@ -9,4 +9,5 @@ target 'ComponentDemo' do
   pod 'FLEX', '~> 2.0', :configurations => ['Debug']
   
   pod 'MGSwipeTableCell', '~> 1.6.7'
+  pod 'JDStatusBarNotification'
 end
