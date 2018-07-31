@@ -10,4 +10,5 @@ target 'ComponentDemo' do
   
   pod 'MGSwipeTableCell', '~> 1.6.7'
   pod 'JDStatusBarNotification'
+  pod 'WCDB'
 end

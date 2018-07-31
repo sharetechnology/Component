@@ -5,6 +5,9 @@ PODS:
   - MGSwipeTableCell (1.6.7)
   - MLeaksFinder (1.0.0):
     - FBRetainCycleDetector
+  - WCDB (1.0.6):
+    - WCDB/sqlcipher (= 1.0.6)
+  - WCDB/sqlcipher (1.0.6)
 
 DEPENDENCIES:
   - FBRetainCycleDetector
@@ -12,6 +15,7 @@ DEPENDENCIES:
   - JDStatusBarNotification
   - MGSwipeTableCell (~> 1.6.7)
   - MLeaksFinder
+  - WCDB
 
 SPEC CHECKSUMS:
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
@@ -19,7 +23,8 @@ SPEC CHECKSUMS:
   JDStatusBarNotification: d5829a8f2f291b23b8a54b87fac8bf2549945a2f
   MGSwipeTableCell: fb20e983988bde2b8d0df29c2d9e1d8ffd10b74a
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
 
-PODFILE CHECKSUM: 73ccf69cf35bd776a5f90011345d886fad5bd182
+PODFILE CHECKSUM: 27cca83218373440507003785030677dce6d206a
 
 COCOAPODS: 1.2.0

@@ -16,6 +16,7 @@
 		678882DF2109F1040021629D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 678882DE2109F1040021629D /* main.m */; };
 		678882E72109F2E00021629D /* View0Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 678882E62109F2E00021629D /* View0Controller.m */; };
 		678882EA2109F4B70021629D /* SharedInstanceObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 678882E92109F4B70021629D /* SharedInstanceObj.m */; };
+		67C5D058210F0BBD0045D654 /* Message.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67C5D057210F0BBD0045D654 /* Message.mm */; };
 		67F6FD75210AB093001AF9B2 /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FD74210AB093001AF9B2 /* View1Controller.m */; };
 		67F6FD78210AB2B9001AF9B2 /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FD77210AB2B9001AF9B2 /* View2Controller.m */; };
 		67F6FD7B210AB9E5001AF9B2 /* View3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F6FD7A210AB9E5001AF9B2 /* View3Controller.m */; };
@@ -49,6 +50,8 @@
 		678882E62109F2E00021629D /* View0Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View0Controller.m; sourceTree = "<group>"; };
 		678882E82109F4B70021629D /* SharedInstanceObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedInstanceObj.h; sourceTree = "<group>"; };
 		678882E92109F4B70021629D /* SharedInstanceObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedInstanceObj.m; sourceTree = "<group>"; };
+		67C5D056210F0BBD0045D654 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		67C5D057210F0BBD0045D654 /* Message.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Message.mm; sourceTree = "<group>"; };
 		67F6FD73210AB093001AF9B2 /* View1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
 		67F6FD74210AB093001AF9B2 /* View1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
 		67F6FD76210AB2B9001AF9B2 /* View2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
@@ -134,6 +137,7 @@
 				678882D02109F1020021629D /* AppDelegate.m */,
 				678882D22109F1020021629D /* ViewController.h */,
 				678882D32109F1020021629D /* ViewController.m */,
+				67C5D055210F0BA70045D654 /* WCDB */,
 				67F6FDAB210AF047001AF9B2 /* MGSwipeTableCell */,
 				67F6FDA2210AD77A001AF9B2 /* UIWindow+FLEXManager.h */,
 				67F6FDA3210AD77A001AF9B2 /* UIWindow+FLEXManager.m */,
@@ -146,6 +150,15 @@
 				678882DE2109F1040021629D /* main.m */,
 			);
 			path = ComponentDemo;
+			sourceTree = "<group>";
+		};
+		67C5D055210F0BA70045D654 /* WCDB */ = {
+			isa = PBXGroup;
+			children = (
+				67C5D056210F0BBD0045D654 /* Message.h */,
+				67C5D057210F0BBD0045D654 /* Message.mm */,
+			);
+			path = WCDB;
 			sourceTree = "<group>";
 		};
 		67F6FD7C210AC1A4001AF9B2 /* extobjc */ = {
@@ -347,6 +360,7 @@
 				67F6FD9A210AC1A4001AF9B2 /* NSInvocation+EXT.m in Sources */,
 				67F6FD78210AB2B9001AF9B2 /* View2Controller.m in Sources */,
 				67F6FD9D210AC1A4001AF9B2 /* EXTNil.m in Sources */,
+				67C5D058210F0BBD0045D654 /* Message.mm in Sources */,
 				67F6FD99210AC1A4001AF9B2 /* EXTADT.m in Sources */,
 				678882D42109F1020021629D /* ViewController.m in Sources */,
 				678882DF2109F1040021629D /* main.m in Sources */,
